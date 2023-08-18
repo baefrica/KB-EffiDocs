@@ -1,0 +1,1803 @@
+{
+  "images": [
+    {
+      "image.make.code": "5350109",
+      "image.make.year": "2001",
+      "image.category": "인.허가",
+      "image.width": 2703,
+      "image.height": 3517,
+      "image.file.name": "5350109-2001-0001-0004.jpg",
+      "image.create.time": "2020-12-16 04:02:47"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 0,
+      "annotation.type": "rectangle",
+      "annotation.text": "신용사회의",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        165.0,
+        775.59,
+        49.0,
+        9.99
+      ]
+    },
+    {
+      "id": 1,
+      "annotation.type": "rectangle",
+      "annotation.text": "금융",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        218.0,
+        775.59,
+        20.0,
+        9.99
+      ]
+    },
+    {
+      "id": 2,
+      "annotation.type": "rectangle",
+      "annotation.text": "파트너",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        243.0,
+        775.59,
+        29.0,
+        9.99
+      ]
+    },
+    {
+      "id": 3,
+      "annotation.type": "rectangle",
+      "annotation.text": "-",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        272.0,
+        775.59,
+        5.02,
+        9.99
+      ]
+    },
+    {
+      "id": 4,
+      "annotation.type": "rectangle",
+      "annotation.text": "신용카드",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        282.0,
+        775.59,
+        39.0,
+        9.99
+      ]
+    },
+    {
+      "id": 5,
+      "annotation.type": "rectangle",
+      "annotation.text": ",",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        320.99,
+        775.59,
+        2.38,
+        9.99
+      ]
+    },
+    {
+      "id": 6,
+      "annotation.type": "rectangle",
+      "annotation.text": "리스",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        329.0,
+        775.59,
+        19.0,
+        9.99
+      ]
+    },
+    {
+      "id": 7,
+      "annotation.type": "rectangle",
+      "annotation.text": ",",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        347.99,
+        775.59,
+        2.38,
+        9.99
+      ]
+    },
+    {
+      "id": 8,
+      "annotation.type": "rectangle",
+      "annotation.text": "할부",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        355.0,
+        775.59,
+        20.0,
+        9.99
+      ]
+    },
+    {
+      "id": 9,
+      "annotation.type": "rectangle",
+      "annotation.text": ",",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        374.98,
+        775.59,
+        2.38,
+        9.99
+      ]
+    },
+    {
+      "id": 10,
+      "annotation.type": "rectangle",
+      "annotation.text": "신기술금융",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        382.0,
+        775.59,
+        49.0,
+        9.99
+      ]
+    },
+    {
+      "id": 11,
+      "annotation.type": "rectangle",
+      "annotation.text": "(",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        172.0,
+        732.18,
+        5.82,
+        19.98
+      ]
+    },
+    {
+      "id": 12,
+      "annotation.type": "rectangle",
+      "annotation.text": "사",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        178.0,
+        732.18,
+        20.0,
+        19.98
+      ]
+    },
+    {
+      "id": 13,
+      "annotation.type": "rectangle",
+      "annotation.text": ")",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        198.0,
+        732.18,
+        5.86,
+        19.98
+      ]
+    },
+    {
+      "id": 14,
+      "annotation.type": "rectangle",
+      "annotation.text": "한국여신전문금융업협회",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        204.0,
+        732.18,
+        220.0,
+        19.98
+      ]
+    },
+    {
+      "id": 15,
+      "annotation.type": "rectangle",
+      "annotation.text": "수신자",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        62.0,
+        686.47,
+        39.0,
+        13.7
+      ]
+    },
+    {
+      "id": 16,
+      "annotation.type": "rectangle",
+      "annotation.text": "회원사",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        111.0,
+        686.47,
+        39.0,
+        13.7
+      ]
+    },
+    {
+      "id": 17,
+      "annotation.type": "rectangle",
+      "annotation.text": "대표이사",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        157.0,
+        686.47,
+        52.0,
+        13.7
+      ]
+    },
+    {
+      "id": 18,
+      "annotation.type": "rectangle",
+      "annotation.text": "(",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        62.0,
+        667.17,
+        6.5,
+        12.98
+      ]
+    },
+    {
+      "id": 19,
+      "annotation.type": "rectangle",
+      "annotation.text": "경유",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        69.0,
+        666.46,
+        26.0,
+        13.71
+      ]
+    },
+    {
+      "id": 20,
+      "annotation.type": "rectangle",
+      "annotation.text": ")",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        94.99,
+        667.17,
+        6.5,
+        12.98
+      ]
+    },
+    {
+      "id": 21,
+      "annotation.type": "rectangle",
+      "annotation.text": "담당업무",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        111.0,
+        666.47,
+        52.0,
+        13.7
+      ]
+    },
+    {
+      "id": 22,
+      "annotation.type": "rectangle",
+      "annotation.text": "부서장",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        169.99,
+        666.47,
+        39.0,
+        13.7
+      ]
+    },
+    {
+      "id": 23,
+      "annotation.type": "rectangle",
+      "annotation.text": "국민건강보험공단",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        111.0,
+        648.47,
+        104.0,
+        13.7
+      ]
+    },
+    {
+      "id": 24,
+      "annotation.type": "rectangle",
+      "annotation.text": "웹스크래핑",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        221.99,
+        648.47,
+        65.0,
+        13.7
+      ]
+    },
+    {
+      "id": 25,
+      "annotation.type": "rectangle",
+      "annotation.text": "사업자등록번호",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        293.0,
+        648.47,
+        91.0,
+        13.7
+      ]
+    },
+    {
+      "id": 26,
+      "annotation.type": "rectangle",
+      "annotation.text": "제공",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        390.99,
+        648.47,
+        26.0,
+        13.7
+      ]
+    },
+    {
+      "id": 27,
+      "annotation.type": "rectangle",
+      "annotation.text": "중단",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        423.0,
+        648.47,
+        26.0,
+        13.7
+      ]
+    },
+    {
+      "id": 28,
+      "annotation.type": "rectangle",
+      "annotation.text": "관련",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        455.99,
+        648.47,
+        26.0,
+        13.7
+      ]
+    },
+    {
+      "id": 29,
+      "annotation.type": "rectangle",
+      "annotation.text": "사별",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        488.0,
+        648.47,
+        26.0,
+        13.7
+      ]
+    },
+    {
+      "id": 30,
+      "annotation.type": "rectangle",
+      "annotation.text": "제",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        62.0,
+        638.47,
+        13.0,
+        13.7
+      ]
+    },
+    {
+      "id": 31,
+      "annotation.type": "rectangle",
+      "annotation.text": "목",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        88.0,
+        638.47,
+        13.0,
+        13.7
+      ]
+    },
+    {
+      "id": 32,
+      "annotation.type": "rectangle",
+      "annotation.text": "마이데이터",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        111.0,
+        627.47,
+        65.0,
+        13.7
+      ]
+    },
+    {
+      "id": 33,
+      "annotation.type": "rectangle",
+      "annotation.text": "진행상황",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        182.99,
+        627.47,
+        52.0,
+        13.7
+      ]
+    },
+    {
+      "id": 34,
+      "annotation.type": "rectangle",
+      "annotation.text": "회신",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        241.0,
+        627.47,
+        26.0,
+        13.7
+      ]
+    },
+    {
+      "id": 35,
+      "annotation.type": "rectangle",
+      "annotation.text": "요청",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        273.99,
+        627.47,
+        26.0,
+        13.7
+      ]
+    },
+    {
+      "id": 36,
+      "annotation.type": "rectangle",
+      "annotation.text": "1.",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        116.0,
+        577.17,
+        10.48,
+        12.98
+      ]
+    },
+    {
+      "id": 37,
+      "annotation.type": "rectangle",
+      "annotation.text": "귀",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        132.0,
+        576.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 38,
+      "annotation.type": "rectangle",
+      "annotation.text": "사의",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        150.0,
+        576.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 39,
+      "annotation.type": "rectangle",
+      "annotation.text": "무궁한",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        179.0,
+        576.46,
+        36.0,
+        13.71
+      ]
+    },
+    {
+      "id": 40,
+      "annotation.type": "rectangle",
+      "annotation.text": "발전을",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        220.0,
+        576.46,
+        36.0,
+        13.71
+      ]
+    },
+    {
+      "id": 41,
+      "annotation.type": "rectangle",
+      "annotation.text": "기원합니다",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        261.0,
+        576.46,
+        59.0,
+        13.71
+      ]
+    },
+    {
+      "id": 42,
+      "annotation.type": "rectangle",
+      "annotation.text": ".",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        320.0,
+        577.17,
+        3.49,
+        12.98
+      ]
+    },
+    {
+      "id": 43,
+      "annotation.type": "rectangle",
+      "annotation.text": "2.",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        116.0,
+        535.17,
+        10.48,
+        12.98
+      ]
+    },
+    {
+      "id": 44,
+      "annotation.type": "rectangle",
+      "annotation.text": "국민건강보험공단에서는",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        132.0,
+        534.47,
+        129.0,
+        13.7
+      ]
+    },
+    {
+      "id": 45,
+      "annotation.type": "rectangle",
+      "annotation.text": "’23.7.1",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        265.0,
+        535.17,
+        37.99,
+        12.98
+      ]
+    },
+    {
+      "id": 46,
+      "annotation.type": "rectangle",
+      "annotation.text": "웹스크래핑",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        308.0,
+        534.47,
+        58.0,
+        13.7
+      ]
+    },
+    {
+      "id": 47,
+      "annotation.type": "rectangle",
+      "annotation.text": "시",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        371.0,
+        534.47,
+        12.0,
+        13.7
+      ]
+    },
+    {
+      "id": 48,
+      "annotation.type": "rectangle",
+      "annotation.text": "사업자등록번호",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        388.0,
+        534.47,
+        82.0,
+        13.7
+      ]
+    },
+    {
+      "id": 49,
+      "annotation.type": "rectangle",
+      "annotation.text": "제공을",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        475.0,
+        534.47,
+        35.0,
+        13.7
+      ]
+    },
+    {
+      "id": 50,
+      "annotation.type": "rectangle",
+      "annotation.text": "중단",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        515.0,
+        534.47,
+        24.0,
+        13.7
+      ]
+    },
+    {
+      "id": 51,
+      "annotation.type": "rectangle",
+      "annotation.text": "할",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        58.0,
+        513.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 52,
+      "annotation.type": "rectangle",
+      "annotation.text": "예정이나",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        76.0,
+        513.46,
+        47.0,
+        13.71
+      ]
+    },
+    {
+      "id": 53,
+      "annotation.type": "rectangle",
+      "annotation.text": ",",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        123.0,
+        514.17,
+        3.49,
+        12.98
+      ]
+    },
+    {
+      "id": 54,
+      "annotation.type": "rectangle",
+      "annotation.text": "현재",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        133.0,
+        513.46,
+        23.0,
+        13.71
+      ]
+    },
+    {
+      "id": 55,
+      "annotation.type": "rectangle",
+      "annotation.text": "공공",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        162.0,
+        513.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 56,
+      "annotation.type": "rectangle",
+      "annotation.text": "·",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        186.0,
+        514.17,
+        4.0,
+        12.98
+      ]
+    },
+    {
+      "id": 57,
+      "annotation.type": "rectangle",
+      "annotation.text": "금융마이데이터를",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        190.0,
+        513.46,
+        94.0,
+        13.71
+      ]
+    },
+    {
+      "id": 58,
+      "annotation.type": "rectangle",
+      "annotation.text": "이용할",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        290.0,
+        513.46,
+        35.0,
+        13.71
+      ]
+    },
+    {
+      "id": 59,
+      "annotation.type": "rectangle",
+      "annotation.text": "수",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        331.0,
+        513.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 60,
+      "annotation.type": "rectangle",
+      "annotation.text": "있는",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        349.0,
+        513.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 61,
+      "annotation.type": "rectangle",
+      "annotation.text": "기반이",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        379.0,
+        513.46,
+        35.0,
+        13.71
+      ]
+    },
+    {
+      "id": 62,
+      "annotation.type": "rectangle",
+      "annotation.text": "미",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        420.0,
+        513.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 63,
+      "annotation.type": "rectangle",
+      "annotation.text": "구축된",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        438.0,
+        513.46,
+        36.0,
+        13.71
+      ]
+    },
+    {
+      "id": 64,
+      "annotation.type": "rectangle",
+      "annotation.text": "금융기관이",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        480.0,
+        513.46,
+        59.0,
+        13.71
+      ]
+    },
+    {
+      "id": 65,
+      "annotation.type": "rectangle",
+      "annotation.text": "확인되어",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        58.0,
+        492.46,
+        47.0,
+        13.71
+      ]
+    },
+    {
+      "id": 66,
+      "annotation.type": "rectangle",
+      "annotation.text": "현황",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        112.0,
+        492.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 67,
+      "annotation.type": "rectangle",
+      "annotation.text": "파악을",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        143.0,
+        492.46,
+        36.0,
+        13.71
+      ]
+    },
+    {
+      "id": 68,
+      "annotation.type": "rectangle",
+      "annotation.text": "요청한",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        186.0,
+        492.46,
+        35.0,
+        13.71
+      ]
+    },
+    {
+      "id": 69,
+      "annotation.type": "rectangle",
+      "annotation.text": "바",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        228.0,
+        492.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 70,
+      "annotation.type": "rectangle",
+      "annotation.text": ",",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        240.0,
+        493.17,
+        3.49,
+        12.98
+      ]
+    },
+    {
+      "id": 71,
+      "annotation.type": "rectangle",
+      "annotation.text": "<",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        251.0,
+        493.17,
+        10.0,
+        12.98
+      ]
+    },
+    {
+      "id": 72,
+      "annotation.type": "rectangle",
+      "annotation.text": "붙임",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        261.0,
+        492.46,
+        23.0,
+        13.71
+      ]
+    },
+    {
+      "id": 73,
+      "annotation.type": "rectangle",
+      "annotation.text": "2>",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        284.0,
+        493.17,
+        17.0,
+        12.98
+      ]
+    },
+    {
+      "id": 74,
+      "annotation.type": "rectangle",
+      "annotation.text": "서식을",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        308.0,
+        492.46,
+        35.0,
+        13.71
+      ]
+    },
+    {
+      "id": 75,
+      "annotation.type": "rectangle",
+      "annotation.text": "작성하시어",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        351.0,
+        492.46,
+        58.0,
+        13.71
+      ]
+    },
+    {
+      "id": 76,
+      "annotation.type": "rectangle",
+      "annotation.text": "’23.5.24(",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        417.0,
+        493.17,
+        49.98,
+        12.98
+      ]
+    },
+    {
+      "id": 77,
+      "annotation.type": "rectangle",
+      "annotation.text": "수",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        466.0,
+        492.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 78,
+      "annotation.type": "rectangle",
+      "annotation.text": ")",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        478.0,
+        493.17,
+        6.0,
+        12.98
+      ]
+    },
+    {
+      "id": 79,
+      "annotation.type": "rectangle",
+      "annotation.text": "까지",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        484.0,
+        492.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 80,
+      "annotation.type": "rectangle",
+      "annotation.text": "회신",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        515.0,
+        492.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 81,
+      "annotation.type": "rectangle",
+      "annotation.text": "(KOREA@KB.or.kr)",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        58.0,
+        473.17,
+        140.0,
+        12.98
+      ]
+    },
+    {
+      "id": 82,
+      "annotation.type": "rectangle",
+      "annotation.text": "하여",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        197.0,
+        472.47,
+        24.0,
+        13.7
+      ]
+    },
+    {
+      "id": 83,
+      "annotation.type": "rectangle",
+      "annotation.text": "주시기",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        227.0,
+        472.47,
+        35.0,
+        13.7
+      ]
+    },
+    {
+      "id": 84,
+      "annotation.type": "rectangle",
+      "annotation.text": "바랍니다",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        268.0,
+        472.47,
+        47.0,
+        13.7
+      ]
+    },
+    {
+      "id": 85,
+      "annotation.type": "rectangle",
+      "annotation.text": ".",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        315.0,
+        473.17,
+        3.49,
+        12.98
+      ]
+    },
+    {
+      "id": 86,
+      "annotation.type": "rectangle",
+      "annotation.text": "붙",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        58.0,
+        347.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 87,
+      "annotation.type": "rectangle",
+      "annotation.text": "임",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        87.0,
+        347.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 88,
+      "annotation.type": "rectangle",
+      "annotation.text": ":",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        105.0,
+        348.17,
+        4.0,
+        12.98
+      ]
+    },
+    {
+      "id": 89,
+      "annotation.type": "rectangle",
+      "annotation.text": "1.",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        115.0,
+        348.17,
+        9.49,
+        12.98
+      ]
+    },
+    {
+      "id": 90,
+      "annotation.type": "rectangle",
+      "annotation.text": "국민건강보험공단",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        131.0,
+        347.46,
+        94.0,
+        13.71
+      ]
+    },
+    {
+      "id": 91,
+      "annotation.type": "rectangle",
+      "annotation.text": "공문",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        230.0,
+        347.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 92,
+      "annotation.type": "rectangle",
+      "annotation.text": "1",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        259.0,
+        348.17,
+        7.0,
+        12.98
+      ]
+    },
+    {
+      "id": 93,
+      "annotation.type": "rectangle",
+      "annotation.text": "부",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        266.0,
+        347.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 94,
+      "annotation.type": "rectangle",
+      "annotation.text": ".",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        278.0,
+        348.17,
+        3.49,
+        12.98
+      ]
+    },
+    {
+      "id": 95,
+      "annotation.type": "rectangle",
+      "annotation.text": "2.",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        114.0,
+        327.17,
+        10.49,
+        12.98
+      ]
+    },
+    {
+      "id": 96,
+      "annotation.type": "rectangle",
+      "annotation.text": "진행상황",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        130.0,
+        326.46,
+        47.0,
+        13.71
+      ]
+    },
+    {
+      "id": 97,
+      "annotation.type": "rectangle",
+      "annotation.text": "회신",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        183.0,
+        326.46,
+        23.0,
+        13.71
+      ]
+    },
+    {
+      "id": 98,
+      "annotation.type": "rectangle",
+      "annotation.text": "서식",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        212.0,
+        326.46,
+        24.0,
+        13.71
+      ]
+    },
+    {
+      "id": 99,
+      "annotation.type": "rectangle",
+      "annotation.text": "1",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        241.0,
+        327.17,
+        6.99,
+        12.98
+      ]
+    },
+    {
+      "id": 100,
+      "annotation.type": "rectangle",
+      "annotation.text": "부",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        248.0,
+        326.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 101,
+      "annotation.type": "rectangle",
+      "annotation.text": ".",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        260.0,
+        327.17,
+        3.49,
+        12.98
+      ]
+    },
+    {
+      "id": 102,
+      "annotation.type": "rectangle",
+      "annotation.text": "끝",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        275.0,
+        326.46,
+        12.0,
+        13.71
+      ]
+    },
+    {
+      "id": 103,
+      "annotation.type": "rectangle",
+      "annotation.text": ".",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        287.0,
+        327.17,
+        3.49,
+        12.98
+      ]
+    },
+    {
+      "id": 104,
+      "annotation.type": "rectangle",
+      "annotation.text": "(",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        203.0,
+        234.95,
+        4.36,
+        15.52
+      ]
+    },
+    {
+      "id": 105,
+      "annotation.type": "rectangle",
+      "annotation.text": "사",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        207.0,
+        234.96,
+        15.0,
+        15.17
+      ]
+    },
+    {
+      "id": 106,
+      "annotation.type": "rectangle",
+      "annotation.text": ")",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        222.0,
+        234.95,
+        4.4,
+        15.52
+      ]
+    },
+    {
+      "id": 107,
+      "annotation.type": "rectangle",
+      "annotation.text": "kb여신전문금융업협회장",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        227.0,
+        234.96,
+        180.0,
+        15.17
+      ]
+    },
+    {
+      "id": 108,
+      "annotation.type": "rectangle",
+      "annotation.text": "책임조사역",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        60.0,
+        151.44,
+        37.0,
+        8.43
+      ]
+    },
+    {
+      "id": 109,
+      "annotation.type": "rectangle",
+      "annotation.text": "김나다",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        106.0,
+        151.44,
+        24.0,
+        8.43
+      ]
+    },
+    {
+      "id": 110,
+      "annotation.type": "rectangle",
+      "annotation.text": "팀장",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        151.0,
+        151.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 111,
+      "annotation.type": "rectangle",
+      "annotation.text": "임다라",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        187.0,
+        151.44,
+        24.0,
+        8.43
+      ]
+    },
+    {
+      "id": 112,
+      "annotation.type": "rectangle",
+      "annotation.text": "부장",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        232.0,
+        151.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 113,
+      "annotation.type": "rectangle",
+      "annotation.text": "대결",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        261.0,
+        167.64,
+        14.0,
+        7.37
+      ]
+    },
+    {
+      "id": 114,
+      "annotation.type": "rectangle",
+      "annotation.text": "05/18",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        279.0,
+        167.64,
+        15.5,
+        7.37
+      ]
+    },
+    {
+      "id": 115,
+      "annotation.type": "rectangle",
+      "annotation.text": "백가나",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        268.0,
+        151.44,
+        24.0,
+        8.43
+      ]
+    },
+    {
+      "id": 116,
+      "annotation.type": "rectangle",
+      "annotation.text": "협조자",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        59.0,
+        130.44,
+        24.0,
+        8.43
+      ]
+    },
+    {
+      "id": 117,
+      "annotation.type": "rectangle",
+      "annotation.text": "시행",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        59.0,
+        109.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 118,
+      "annotation.type": "rectangle",
+      "annotation.text": "디지털부",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        89.0,
+        109.44,
+        48.0,
+        8.43
+      ]
+    },
+    {
+      "id": 119,
+      "annotation.type": "rectangle",
+      "annotation.text": "-001",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        137.0,
+        109.87,
+        20.66,
+        7.99
+      ]
+    },
+    {
+      "id": 120,
+      "annotation.type": "rectangle",
+      "annotation.text": "(2023.9.18.)",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        162.0,
+        109.87,
+        48.0,
+        7.99
+      ]
+    },
+    {
+      "id": 121,
+      "annotation.type": "rectangle",
+      "annotation.text": "접수",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        309.0,
+        109.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 122,
+      "annotation.type": "rectangle",
+      "annotation.text": "우",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        59.0,
+        88.44,
+        8.0,
+        8.43
+      ]
+    },
+    {
+      "id": 123,
+      "annotation.type": "rectangle",
+      "annotation.text": "09921",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        77.0,
+        88.87,
+        23.66,
+        7.99
+      ]
+    },
+    {
+      "id": 124,
+      "annotation.type": "rectangle",
+      "annotation.text": "서울",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        110.0,
+        88.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 125,
+      "annotation.type": "rectangle",
+      "annotation.text": "중구",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        130.0,
+        88.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 126,
+      "annotation.type": "rectangle",
+      "annotation.text": "컴퓨터길",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        150.0,
+        88.44,
+        24.0,
+        8.43
+      ]
+    },
+    {
+      "id": 127,
+      "annotation.type": "rectangle",
+      "annotation.text": "13",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        178.0,
+        88.87,
+        9.66,
+        7.99
+      ]
+    },
+    {
+      "id": 128,
+      "annotation.type": "rectangle",
+      "annotation.text": "(",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        191.0,
+        88.87,
+        4.0,
+        7.99
+      ]
+    },
+    {
+      "id": 129,
+      "annotation.type": "rectangle",
+      "annotation.text": "다동",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        195.0,
+        88.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 130,
+      "annotation.type": "rectangle",
+      "annotation.text": ",",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        211.0,
+        88.87,
+        2.33,
+        7.99
+      ]
+    },
+    {
+      "id": 131,
+      "annotation.type": "rectangle",
+      "annotation.text": "주소빌딩",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        218.0,
+        88.44,
+        32.0,
+        8.43
+      ]
+    },
+    {
+      "id": 132,
+      "annotation.type": "rectangle",
+      "annotation.text": ")",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        250.0,
+        88.87,
+        4.0,
+        7.99
+      ]
+    },
+    {
+      "id": 133,
+      "annotation.type": "rectangle",
+      "annotation.text": "100",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        258.0,
+        88.87,
+        8.66,
+        7.99
+      ]
+    },
+    {
+      "id": 134,
+      "annotation.type": "rectangle",
+      "annotation.text": "층",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        267.0,
+        88.44,
+        8.0,
+        8.43
+      ]
+    },
+    {
+      "id": 135,
+      "annotation.type": "rectangle",
+      "annotation.text": "여신금융협회",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        279.0,
+        88.44,
+        48.0,
+        8.43
+      ]
+    },
+    {
+      "id": 136,
+      "annotation.type": "rectangle",
+      "annotation.text": "전화",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        59.0,
+        67.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 137,
+      "annotation.type": "rectangle",
+      "annotation.text": "02-7777-0717",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        86.0,
+        67.87,
+        60.66,
+        7.99
+      ]
+    },
+    {
+      "id": 138,
+      "annotation.type": "rectangle",
+      "annotation.text": "전송",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        162.0,
+        67.44,
+        16.0,
+        8.43
+      ]
+    },
+    {
+      "id": 139,
+      "annotation.type": "rectangle",
+      "annotation.text": "02-3333-0701",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        187.0,
+        67.87,
+        59.66,
+        7.99
+      ]
+    },
+    {
+      "id": 140,
+      "annotation.type": "rectangle",
+      "annotation.text": "/",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        262.0,
+        67.87,
+        2.66,
+        7.99
+      ]
+    },
+    {
+      "id": 141,
+      "annotation.type": "rectangle",
+      "annotation.text": "gufkaj@c",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        271.0,
+        67.87,
+        50.0,
+        7.99
+      ]
+    },
+    {
+      "id": 142,
+      "annotation.type": "rectangle",
+      "annotation.text": "KBKBa",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        322.0,
+        67.87,
+        16.0,
+        7.99
+      ]
+    },
+    {
+      "id": 143,
+      "annotation.type": "rectangle",
+      "annotation.text": ".or.kr",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        339.0,
+        67.87,
+        19.33,
+        7.99
+      ]
+    },
+    {
+      "id": 144,
+      "annotation.type": "rectangle",
+      "annotation.text": "/",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        420.0,
+        88.87,
+        2.66,
+        7.99
+      ]
+    },
+    {
+      "id": 145,
+      "annotation.type": "rectangle",
+      "annotation.text": "https://www.cref",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        429.0,
+        88.87,
+        62.0,
+        7.99
+      ]
+    },
+    {
+      "id": 146,
+      "annotation.type": "rectangle",
+      "annotation.text": "ia.or.kr",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        492.0,
+        88.87,
+        25.33,
+        7.99
+      ]
+    },
+    {
+      "id": 147,
+      "annotation.type": "rectangle",
+      "annotation.text": "/",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        420.0,
+        67.87,
+        2.66,
+        7.99
+      ]
+    },
+    {
+      "id": 148,
+      "annotation.type": "rectangle",
+      "annotation.text": "공개",
+      "annotation.ttype": "textType1",
+      "annotation.bbox": [
+        429.0,
+        67.44,
+        16.0,
+        8.43
+      ]
+    }
+  ]
+}
