@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KB 국민은행 품의서 작성 도우미</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo-image" src="{{ url_for('static', filename='KB_logo.png') }}" alt="KB 국민은행 로고">
+        <div class="title">
+            <h1>품의서 작성 도우미</h1>
+            <h3>참고할 문서를 검색해보세요</h3>
+	    </div>
+
+        <form method="POST">
+            <div id="searchBox" class="sticky">
+                <div id="inputBox">
+                    <label for="user_input">키워드 입력</label>
+                    <input type="text" id="user_input" name="user_input" required>
+                    <button type="submit">검색</button>
+                </div>
+	        </div>
+        </form>
+
+        {% if most_similar_annotations %}
+        <div class="document-section">
+            <div class="annotations">
+                <div class="similar-document">
+                    <h2>가장 유사한 문서 내용</h2>
+                    <button id="copyBtn">COPY</button>
+                </div>
+                <ul>
+                    {% for annotation in most_similar_annotations %}
+                        <li>{{ annotation }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="image">
+                {% if jpg_filename %}
+                <h2>가장 유사한 문서 이미지</h2>
+                <img class="document-image" src="{{ url_for('static', filename=jpg_filename) }}" alt="Most Similar Document">
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Annotations 내용 복사 버튼 클릭 시 실행되는 함수
+        document.getElementById("copyBtn").addEventListener("click", function () {
+            copyContent();
+        });
+
+        // Annotations 내용 복사 함수
+        function copyContent() {
+            var annotationsContent = "";
+            var annotationsList = document.querySelectorAll(".annotations ul li");
+
+            annotationsList.forEach(function(item) {
+                annotationsContent += item.textContent + "\n";
+            });
+
+            var dummyTextarea = document.createElement("textarea");
+            dummyTextarea.textContent = annotationsContent;
+            document.body.appendChild(dummyTextarea);
+            dummyTextarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummyTextarea);
+            alert("전체 내용이 복사되었습니다.");
+        }
+    </script>
+</body>
+</html>

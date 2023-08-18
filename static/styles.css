@@ -1,0 +1,174 @@
+/* 전체 페이지 스타일 */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 글꼴 설정 */
+    background-color: #f9f9f9; /* 배경색 설정 */
+}
+
+.container {
+    max-width: 1000px; /* 넓이를 조정하세요 */
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #ffcc00; /* 배경 */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* 헤더 스타일 */
+
+h1 {
+    margin-bottom: 3px;
+    color: #60584c; /* 헤더 글씨 */
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+h3 {
+    color: #60584c; /* 헤더 글씨 */
+}
+
+/* 입력 폼 스타일 */
+
+form {
+    margin-bottom: 50px;
+}
+
+form label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #60584c;
+    margin-top: 8px;
+}
+
+#searchBox{
+    margin-top: 50px;
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+ }
+
+#inputBox{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form input[type="text"] {
+    border: 2px solid #60584c;
+    border-radius: 5px;
+    width: 320px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+form button {
+    background-color: #60584c; /* 버튼 배경 */
+    color: #ffcc00;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444; /* 버튼 호버 배경 */
+}
+
+/* 섹션 스타일 */
+
+.similar-document {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; /* 가운데 정렬 */
+}
+
+h2 {
+    color: #60584c; /* 섹션 글씨 */
+    font-size: 24px;
+}
+
+#copyBtn {
+    background-color: #60584c; /* 버튼 배경 */
+    color: #ffcc00;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    transition: background-color 0.3s;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 15px;
+
+    :hover {
+        background-color: #444; /* 버튼 호버 배경 */
+    }
+}
+
+/* 목록 스타일 */
+
+ul {
+    list-style: none;
+    padding: 20px;
+    border: 2px solid #60584c;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #60584c; /* 목록 내용 글씨 */
+    font-size: 15px;
+}
+
+/* 로고 이미지 스타일 */
+.logo-image {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* .document-section 스타일 */
+.document-section {
+    display: flex;
+    flex-direction: row; /* 가로 방향으로 배치 */
+    justify-content: space-between; /* 어노테이션과 이미지 사이에 간격 벌리기 */
+    align-items: flex-start; /* 위쪽 정렬 */
+    margin-bottom: 20px;
+}
+
+/* 어노테이션 및 이미지 스타일 */
+.annotations {
+    flex-basis: 48%; /* 어노테이션 섹션의 너비 설정 */
+    margin: 10px 0; /* 위아래 여백 추가 */
+}
+
+.image {
+    flex-basis: 48%; /* 이미지 섹션의 너비 설정 */
+    text-align: center; /* 가운데 정렬 */
+    margin: 10px 0; /* 위아래 여백 추가 */
+}
+
+.document-image {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #60584c;
+}
