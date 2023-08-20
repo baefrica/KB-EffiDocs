@@ -1,5 +1,7 @@
 <h1 align="middle">KB EffiDocu</h1>
 
+<p align="center"><img src="./exec/메인 화면.png" align="middle" width="800" height="400"/></p>
+
 ## Service
 
 기존에 작성되어 있는 행내 문서(품의서, 시행문 등)를 검색하여 가장 적합한 문서를 찾는 AI 서비스입니다.
@@ -23,5 +25,7 @@
 ### Main
 
 #### 1. 회원가입
+
+<p align="center"><img src="./exec/프로토타입 GIF파일.gif" align="middle" width="800" height="400"/></p>
 
 - 아
