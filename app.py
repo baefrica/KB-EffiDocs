@@ -13,7 +13,7 @@ kb_albert_model = AutoModel.from_pretrained(kb_albert_model_path)
 tokenizer = AutoTokenizer.from_pretrained(kb_albert_model_path)
 
 # JSON 파일이 들어있는 폴더 경로 지정
-json_folder_path = "new_data2222"
+json_folder_path = "data_for_KB"
 
 # 폴더 내의 모든 JSON 파일 읽기
 document_data = []
@@ -33,6 +33,7 @@ def index():
     user_input = ""
     most_similar_annotations = []
     jpg_filename = ""
+    similarity_percentage = 0
 
     if request.method == 'POST':
         user_input = request.form['user_input']
@@ -56,6 +57,10 @@ def index():
                 max_similarity = similarity
                 most_similar_index = idx
 
+        # 유사도를 100% 단위로 표시하기 위해 계산
+        similarity_percentage = int(max_similarity * 100)
+
+        # 가장 유사한 문서의 JSON 파일 내용 읽어오기
         if most_similar_index is not None:
             most_similar_json_path = document_data[most_similar_index][1]
             with open(most_similar_json_path, "r", encoding="utf-8") as file:
@@ -89,7 +94,7 @@ def index():
             jpg_filename = os.path.splitext(json_filename)[0] + ".jpg"
 
     return render_template('index.html', user_input=user_input, most_similar_annotations=most_similar_annotations,
-                           jpg_filename=jpg_filename)
+                           jpg_filename=jpg_filename, similarity_percentage=similarity_percentage)
 
 
 if __name__ == '__main__':

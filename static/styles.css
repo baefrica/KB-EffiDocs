@@ -159,6 +159,12 @@ li {
     margin: 10px 0; /* 위아래 여백 추가 */
 }
 
+p {
+    color: #60584c;
+    margin: 5px;
+    font-weight: bold;
+}
+
 .image {
     flex-basis: 48%; /* 이미지 섹션의 너비 설정 */
     text-align: center; /* 가운데 정렬 */

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>KB EffiDocs</title>
+    <title>KB EffiDocu</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 
@@ -13,15 +13,15 @@
     <div class="container">
         <img class="logo-image" src="{{ url_for('static', filename='KB_logo.png') }}" alt="KB 국민은행 로고">
         <div class="title">
-            <h1>KB EffiDocs</h1>
+            <h1>KB EffiDocu</h1>
             <h3>참고할 문서를 검색해보세요</h3>
 	    </div>
 
-        <form method="POST">
+        <form method="POST" id="searchForm">
             <div id="searchBox" class="sticky">
                 <div id="inputBox">
                     <label for="user_input">키워드 입력</label>
-                    <input type="text" id="user_input" name="user_input" required>
+                    <input type="text" id="user_input" name="user_input" required value="{{ user_input }}">
                     <button type="submit">검색</button>
                 </div>
 	        </div>
@@ -43,6 +43,13 @@
             <div class="image">
                 {% if jpg_filename %}
                 <h2>가장 유사한 문서 이미지</h2>
+
+                {% if similarity_percentage %}
+                    <div class="similarity-percentage">
+                        <p>(유사도: {{ similarity_percentage }}%)</p>
+                    </div>
+                {% endif %}
+
                 <img class="document-image" src="{{ url_for('static', filename=jpg_filename) }}" alt="Most Similar Document">
                 {% endif %}
             </div>
@@ -73,6 +80,13 @@
             document.body.removeChild(dummyTextarea);
             alert("전체 내용이 복사되었습니다.");
         }
+
+        // 검색 폼 제출 시 페이지 새로고침 방지
+        document.getElementById("searchForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+        });
     </script>
 </body>
 </html>
+
+
